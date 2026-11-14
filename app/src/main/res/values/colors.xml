@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fondo">#FFFFFF</color>
+    <color name="pantalla_texto">#1C1C1E</color>
+    <color name="boton_numero">#E5E5EA</color>
+    <color name="boton_operador">#FF9500</color>
+    <color name="boton_borrar">#FF9500</color>
+    <color name="boton_igual">#34C759</color>
+    <color name="texto_numero">#1C1C1E</color>
+    <color name="texto_claro">#FFFFFF</color>
+</resources>

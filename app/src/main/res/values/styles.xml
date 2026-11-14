@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BotonBase" parent="Widget.Material3.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/texto_claro</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+
+    <style name="BotonNumero" parent="BotonBase">
+        <item name="backgroundTint">@color/boton_numero</item>
+        <item name="android:textColor">@color/texto_numero</item>
+
+    </style>
+
+    <style name="BotonOperador" parent="BotonBase">
+        <item name="backgroundTint">@color/boton_operador</item>
+        <item name="android:textSize">40sp </item>
+    </style>
+
+    <style name="BotonBorrar" parent="BotonBase">
+        <item name="backgroundTint">@color/boton_borrar</item>
+        <item name="android:textColor">@color/texto_numero</item>
+    </style>
+
+    <style name="BotonIgual" parent="BotonBase">
+        <item name="backgroundTint">@color/boton_igual</item>
+        <item name="android:textSize">40sp </item>
+    </style>
+</resources>
